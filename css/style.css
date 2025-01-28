@@ -1,0 +1,32 @@
+header{
+    background-color: rgba(39, 39, 39, 1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#banner{
+    background-color: red;
+}
+
+.links{
+    background-color: rgb(201, 195, 195);
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.links li{
+    list-style-type: none;
+    text-decoration: none;
+    color: black
+}
+
+.links li:active{
+    text-decoration: underline;
+    color: black;
+}
+
