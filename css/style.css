@@ -75,7 +75,7 @@ nav a{
 
 }
 
-.categories{
+.choose_grid{
     grid-column: span 2;
     margin: 2em;
     margin-right: 10em;
@@ -83,30 +83,3 @@ nav a{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2em;
 }
-
-article{
-    display: grid;
-    grid-template-rows: subgrid;
-}
-
-
-article a{
-    background-image: url("../img/ball.webp");
-    background-size:cover;
-    padding: 5em;
-    color: white;
-    font-weight: 200;
-    text-decoration: none;
-    
-}
-
-article a:hover{
-    background-color: black;
-    background-image: none;
-}
-
-
-/* *****HIDE******* */
-/* .hide{
-    display: none;
-} */
