@@ -1,3 +1,5 @@
+/* **************HEADER + FOOTER********** */
+
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -16,6 +18,7 @@ footer{
 #banner{
     background-color: red;
     text-wrap: nowrap;
+    font-weight:bolder;
 }
 
 .links{
@@ -45,11 +48,16 @@ footer{
     color: black;
 }
 
-
+/* ***********LEFT NAVIGATION********** */
 
 nav li{
     text-decoration: none;
     list-style-type: none;
+    padding: 0.3em;
+}
+
+nav ul li:nth-of-type(2) {
+    margin-left: 2em;
 }
 
 nav a{
@@ -59,14 +67,15 @@ nav a{
     color: black;
 }
 
+/* ***********INDEX PAGE*********** */
 
-#categories_page{
+#page_grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
 }
 
-.categories{
+.choose_grid{
     grid-column: span 2;
     margin: 2em;
     margin-right: 10em;
@@ -74,26 +83,3 @@ nav a{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2em;
 }
-
-article{
-    display: grid;
-    grid-template-rows: subgrid;
-}
-
-
-article a{
-    background-image: url("../img/ball.webp");
-    background-size:cover;
-    padding: 5em;
-    color: white;
-    font-weight: 200;
-    text-decoration: none;
-    
-}
-
-
-
-/* *****HIDE******* */
-/* .hide{
-    display: none;
-} */

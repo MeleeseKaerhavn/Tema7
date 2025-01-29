@@ -1,0 +1,59 @@
+h5{
+    font-weight: lighter;
+}
+
+.card img{
+    max-width: 200px;
+}
+
+.cart{
+    background-color: rgb(130, 190, 127);
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* ********SOLD OUT************ */
+
+
+.sold-out img{
+    opacity: 0.5;
+}
+
+.card.sold-out .cart {
+    display: none;
+}
+
+.card.sold-out::after {
+    content: "SOLD OUT";
+    display: block;
+    text-align: center;
+    background-color: rgb(229, 128, 128);
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* ******DISCOUNTED********** */
+
+.card.discount h5::after{
+    content: "34%";
+    display:inline-block;
+    position: relative;
+    top: auto;
+    left: 43%;
+    background-color: red;
+    padding: 0 1em;
+}
