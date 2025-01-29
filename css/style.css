@@ -1,3 +1,5 @@
+/* **************HEADER + FOOTER********** */
+
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -16,6 +18,7 @@ footer{
 #banner{
     background-color: red;
     text-wrap: nowrap;
+    font-weight:bolder;
 }
 
 .links{
@@ -45,11 +48,16 @@ footer{
     color: black;
 }
 
-
+/* ***********LEFT NAVIGATION********** */
 
 nav li{
     text-decoration: none;
     list-style-type: none;
+    padding: 0.3em;
+}
+
+nav ul li:nth-of-type(2) {
+    margin-left: 2em;
 }
 
 nav a{
@@ -59,8 +67,9 @@ nav a{
     color: black;
 }
 
+/* ***********INDEX PAGE*********** */
 
-#categories_page{
+#page_grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
@@ -91,6 +100,10 @@ article a{
     
 }
 
+article a:hover{
+    background-color: black;
+    background-image: none;
+}
 
 
 /* *****HIDE******* */
