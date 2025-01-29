@@ -1,0 +1,99 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: rgba(39, 39, 39, 1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(39, 39, 39, 1);
+}
+
+#banner{
+    background-color: red;
+    text-wrap: nowrap;
+}
+
+.links{
+    background-color: rgb(201, 195, 195);
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.links li{
+    list-style-type: none;
+    text-decoration: none;
+    color: black
+}
+
+.links li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+nav li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav a{
+    margin-left: 2em;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+#categories_page{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.categories{
+    grid-column: span 2;
+    margin: 2em;
+    margin-right: 10em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2em;
+}
+
+article{
+    display: grid;
+    grid-template-rows: subgrid;
+}
+
+
+article a{
+    background-image: url("../img/ball.webp");
+    background-size:cover;
+    padding: 5em;
+    color: white;
+    font-weight: 200;
+    text-decoration: none;
+    
+}
+
+
+
+/* *****HIDE******* */
+/* .hide{
+    display: none;
+} */
