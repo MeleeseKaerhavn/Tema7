@@ -1,0 +1,42 @@
+.cart{
+    background-color: rgb(130, 190, 127);
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#single_view{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, fr);
+    column-gap: 2em;
+}
+
+#single_view img{
+    grid-row: span 5;
+    max-width: 100%;
+    max-height: 100%;
+} 
+
+@media (max-width: 1000px) {
+
+   
+    #single_view{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5em;
+    }
+
+}
+
+
+/* #page_grid{
+    background-color: blue;
+} */
