@@ -1,4 +1,4 @@
-let productId = 1525;
+let productId = 1164;
 
 let productContainer = document.querySelector("#single_view");
 
