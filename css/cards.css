@@ -49,11 +49,11 @@ h5{
 /* ******DISCOUNTED********** */
 
 .card.discount h5::after{
-    content: "34%";
+    content: "discount";
     display:inline-block;
     position: relative;
     top: auto;
-    left: 43%;
+    left: 13%;
     background-color: rgb(251, 255, 0);
     padding: 0 1em;
 }
