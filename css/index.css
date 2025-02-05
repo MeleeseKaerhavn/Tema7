@@ -7,12 +7,14 @@ article{
 
 article a{
     background-image: url("../img/ball.webp");
+    opacity: 80%;
     max-width: 70px;
     background-size:cover;
     padding: 5em;
     color: white;
     font-weight: 200;
     text-decoration: none;
+    border-radius: 2px;
     
 }
 
